@@ -22,6 +22,7 @@ Developed with Visual Studio 2015 Community
 |Strategy Pattern| Simulates various payment options for a shopping cart | Yes |
 |Chain of Responsibility Pattern| Simulates project approval based on budget size | Yes |
 |Observer Pattern| Simulates investor notification when stock prices change | Yes |
+|Command Pattern| Simulates file access commands (open, close, etc...) | Yes |
 
 ---
 
@@ -39,6 +40,12 @@ Chain of responsibility pattern is used to achieve loose coupling in software de
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. 
 
 Observer design pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change. In observer pattern, the object that watch on the state of another object are called Observer and the object that is being watched is called Subject.
+
+---
+
+
+### Command Pattern
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
 
 ---
 

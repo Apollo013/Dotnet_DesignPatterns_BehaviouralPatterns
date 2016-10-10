@@ -45,7 +45,7 @@ Observer design pattern is useful when you are interested in the state of an obj
 
 
 ### Command Pattern
-Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
+Encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
 
 ---
 

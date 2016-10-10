@@ -15,9 +15,9 @@ Developed with Visual Studio 2015 Community
 ---
 ###Design Patterns
 
-|Pattern|Description|
-|-------|-----------|
-|Strategy Pattern| Simulates various payment options for a shopping cart |
+|Pattern|Description|UML Included|
+|-------|-----------|------------|
+|Strategy Pattern| Simulates various payment options for a shopping cart | Yes |
 
 ---
 

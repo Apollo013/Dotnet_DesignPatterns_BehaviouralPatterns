@@ -15,9 +15,9 @@ Developed with Visual Studio 2015 Community
 ---
 ###Design Patterns
 
-|Pattern|Description|
-|-------|-----------|
-|Strategy Pattern| Simulates various payment options for a shopping cart |
+|Pattern|Description|UML Included|
+|-------|-----------|------------|
+|Strategy Pattern| Simulates various payment options for a shopping cart | Yes |
 
 ---
 
@@ -34,3 +34,4 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 |[Creational Design Patterns](http://www.csharpstar.com/creational-design-patterns/)| | CShapster |
 |[patterns & practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)||MSDN|
 |[Design Patterns in Java](https://www.tutorialspoint.com/design_pattern/index.htm)||TutorialsPoint|
+|[Java Design Patterns](http://www.journaldev.com/1827/java-design-patterns-example-tutorial)||JournalDev|

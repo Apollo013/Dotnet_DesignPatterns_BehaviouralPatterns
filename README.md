@@ -17,7 +17,7 @@ Developed with Visual Studio 2015 Community
 
 |Pattern|Description|
 |-------|-----------|
-|Strategy Pattern| Simulates a various payment options for a shopping cart |
+|Strategy Pattern| Simulates various payment options for a shopping cart |
 
 ---
 

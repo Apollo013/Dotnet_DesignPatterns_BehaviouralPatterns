@@ -50,4 +50,4 @@ Observer design pattern is useful when you are interested in the state of an obj
 |[Creational Design Patterns](http://www.csharpstar.com/creational-design-patterns/)| | CShapster |
 |[patterns & practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)||MSDN|
 |[Design Patterns in Java](https://www.tutorialspoint.com/design_pattern/index.htm)||TutorialsPoint|
-|[Java Design Patterns](http://www.journaldev.com/1827/java-design-patterns-example-tutorial)||JournalDev|
+|[Java Design Patterns](http://www.journaldev.com/1827/java-design-patterns-example-tutorial)|Pankaj|JournalDev|

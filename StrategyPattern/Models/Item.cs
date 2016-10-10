@@ -3,9 +3,9 @@
 
     public class Item
     {
-        public string Name { get; set; }
-        public double CostPriceEach { get; set; }
-        public int Quantity { get; set; }
+        protected string Name { get; set; }
+        protected double CostPriceEach { get; set; }
+        protected int Quantity { get; set; }
 
         public Item(string name, double costPriceEach, int quantity)
         {

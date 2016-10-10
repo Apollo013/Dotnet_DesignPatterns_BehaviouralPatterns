@@ -8,7 +8,7 @@ namespace StrategyPattern.Models
     /// </summary>
     public class ShoppingCart
     {
-        List<Item> cart = new List<Item>();
+        private List<Item> cart = new List<Item>();
         public void AddItem(Item item)
         {
             this.cart.Add(item);

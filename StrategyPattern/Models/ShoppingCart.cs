@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace StrategyPattern.Models
 {
+    /// <summary>
+    /// Represents the 'Context'
+    /// </summary>
     public class ShoppingCart
     {
         List<Item> cart = new List<Item>();

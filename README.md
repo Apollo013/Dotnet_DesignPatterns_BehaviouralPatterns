@@ -21,6 +21,8 @@ Developed with Visual Studio 2015 Community
 |-------|-----------|------------|
 |Strategy Pattern| Simulates various payment options for a shopping cart | Yes |
 |Chain of Responsibility Pattern| Simulates project approval based on budget size | Yes |
+|Observer Pattern| Simulates investor notification when stock prices change | Yes |
+
 ---
 
 ### Strategy Pattern
@@ -33,6 +35,13 @@ Chain of responsibility pattern is used to achieve loose coupling in software de
 
 ---
 
+### Observer Pattern
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. 
+
+Observer design pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change. In observer pattern, the object that watch on the state of another object are called Observer and the object that is being watched is called Subject.
+
+---
+
 ###More Resources
 |Title|Author|Website|
 |-----|------|-------|
@@ -41,4 +50,4 @@ Chain of responsibility pattern is used to achieve loose coupling in software de
 |[Creational Design Patterns](http://www.csharpstar.com/creational-design-patterns/)| | CShapster |
 |[patterns & practices](https://msdn.microsoft.com/en-us/library/ff921345.aspx)||MSDN|
 |[Design Patterns in Java](https://www.tutorialspoint.com/design_pattern/index.htm)||TutorialsPoint|
-|[Java Design Patterns](http://www.journaldev.com/1827/java-design-patterns-example-tutorial)||JournalDev|
+|[Java Design Patterns](http://www.journaldev.com/1827/java-design-patterns-example-tutorial)|Pankaj|JournalDev|

@@ -51,7 +51,6 @@
     <Compile Include="FileAccessObjects\IFileAccess.cs" />
     <Compile Include="FileAccessObjects\IOSFileAccess.cs" />
     <Compile Include="FileAccessObjects\WindowsFileAccess.cs" />
-    <Compile Include="Invokers\CommandInvoker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

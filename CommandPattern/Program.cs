@@ -1,6 +1,5 @@
 ﻿using CommandPattern.Commands;
 using CommandPattern.FileAccessObjects;
-using CommandPattern.Invokers;
 
 namespace CommandPattern
 {
@@ -12,6 +11,7 @@ namespace CommandPattern
             IFileAccess winAccess = new WindowsFileAccess();
             IFileAccess iosAccess = new IOSFileAccess();
 
+
             // Commands
             ICommand winOpenCommand = new OpenFileCommand(winAccess);
             ICommand iosOpenCommand = new OpenFileCommand(iosAccess);
@@ -19,18 +19,13 @@ namespace CommandPattern
             ICommand winCloseCommand = new CloseFileCommand(winAccess);
             ICommand iosCloseCommand = new CloseFileCommand(iosAccess);
 
+
             // Invoke commands
-            CommandInvoker invoker = new CommandInvoker(winOpenCommand);
-            invoker.execute();
+            winOpenCommand.Execute();
+            winCloseCommand.Execute();
 
-            invoker = new CommandInvoker(iosOpenCommand);
-            invoker.execute();
-
-            invoker = new CommandInvoker(winCloseCommand);
-            invoker.execute();
-
-            invoker = new CommandInvoker(iosCloseCommand);
-            invoker.execute();
+            iosOpenCommand.Execute();
+            iosCloseCommand.Execute();
         }
     }
 }

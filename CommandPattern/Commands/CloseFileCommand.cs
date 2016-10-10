@@ -11,7 +11,7 @@ namespace CommandPattern.Commands
             _fileAccess = fileAccess;
         }
 
-        public void execute()
+        public void Execute()
         {
             _fileAccess.CloseFile();
         }

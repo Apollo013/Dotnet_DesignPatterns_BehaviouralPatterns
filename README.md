@@ -21,6 +21,8 @@ Developed with Visual Studio 2015 Community
 |-------|-----------|------------|
 |Strategy Pattern| Simulates various payment options for a shopping cart | Yes |
 |Chain of Responsibility Pattern| Simulates project approval based on budget size | Yes |
+|Observer Pattern| Simulates investor notification when stock prices change | Yes |
+
 ---
 
 ### Strategy Pattern
@@ -30,6 +32,13 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 
 ### Chain of Responsibility Pattern
 Chain of responsibility pattern is used to achieve loose coupling in software design where a request from client is passed to a chain of objects to process them. Then the object in the chain will decide themselves who will be processing the request and whether the request is required to be sent to the next object in the chain or not. 
+
+---
+
+### Observer Pattern
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. 
+
+Observer design pattern is useful when you are interested in the state of an object and want to get notified whenever there is any change. In observer pattern, the object that watch on the state of another object are called Observer and the object that is being watched is called Subject.
 
 ---
 

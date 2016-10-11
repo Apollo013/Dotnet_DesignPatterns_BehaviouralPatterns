@@ -23,7 +23,7 @@ Developed with Visual Studio 2015 Community
 |Chain of Responsibility Pattern| Simulates project approval based on budget size | Yes |
 |Observer Pattern| Simulates investor notification when stock prices change | Yes |
 |Command Pattern| Simulates file access commands (open, close, etc...) | Yes |
-
+|Iterator Pattern| Demonstrates iteration through a collection of objects| Yes |
 ---
 
 ### Strategy Pattern
@@ -43,12 +43,16 @@ Observer design pattern is useful when you are interested in the state of an obj
 
 ---
 
-
 ### Command Pattern
 Encapsulates a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
 
 ---
 
+### Iterator Pattern
+
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation
+
+---
 ###More Resources
 |Title|Author|Website|
 |-----|------|-------|

@@ -23,7 +23,7 @@ Developed with Visual Studio 2015 Community
 |Chain of Responsibility Pattern| Simulates project approval based on budget size | Yes |
 |Observer Pattern| Simulates investor notification when stock prices change | Yes |
 |Command Pattern| Simulates file access commands (open, close, etc...) | Yes |
-|Iterator Pattern| Demonstrates iteration through a collection of objects| Yes |
+|Iterator Pattern| Demonstrates iteration through a collection of objects & an IEnumerator implementation| Yes |
 ---
 
 ### Strategy Pattern

@@ -16,7 +16,7 @@ namespace IteratorPattern.Aggregates
         public object this[int idx]
         {
             get { return _items[idx]; }
-            set { _items.Add(value); }
+            set { _items.Insert(idx, value); }
         }
 
         public IIterator<Person> CreateIterator()

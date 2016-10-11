@@ -6,7 +6,6 @@ namespace ObserverPattern.Observers
     public class Investor : IInvestor
     {
         public string Name { get; set; }
-        public Stock Stock { get; set; }
 
         public Investor(string name)
         {

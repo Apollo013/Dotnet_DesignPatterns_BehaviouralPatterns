@@ -50,7 +50,7 @@ Encapsulates a request as an object, thereby letting you parameterize clients wi
 
 ### Iterator Pattern
 
-Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation
 
 ---
 ###More Resources
